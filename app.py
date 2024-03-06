@@ -29,7 +29,7 @@ class Robot:
 robot = Robot()
 
 while True:
-    instruction = input("Enter 'F' to move forward or 'R' to rotate (or 'exit' to quit): ").upper()
+    instruction = input("Enter 'F' to move forward or 'R' to rotate or 'exit' to quit: ").upper()
 
     if instruction == 'EXIT':
         break
