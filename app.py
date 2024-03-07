@@ -30,10 +30,8 @@ robot = Robot()
 
 while True:
     instruction = input("Enter 'F' to move forward or 'R' to rotate or 'exit' to quit: ").upper()
-
     if instruction == 'EXIT':
         break
-
     # Process the instruction using the robot's method
     robot.process_input(instruction)
     print(f"After instruction {instruction}, position: {robot.position}")
